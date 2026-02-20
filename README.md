@@ -1,6 +1,7 @@
-# The Open Source Handbook 🚀
+# Introduction to GSoC and FOSS 
+By **edept**
 
-Welcome to the **Open Source Handbook**! This is a training repository designed for students who are new to GitHub and Open Source.
+Welcome to the **Introduction to GSoC and FOSS**, organized by **edept**! This is a training repository designed for students who are new to GitHub and Open Source.
 
 ## Goal of the Activity
 Your goal is to explore this codebase and identify issues that need fixing. These issues range from simple typos to minor design flaws.
