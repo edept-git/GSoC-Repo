@@ -4,43 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Source Handook</title>
+    <title>GSoC Pathfinder | e-Dept Open Source Guide</title>
+    <!-- PRACTICE ISSUE #1.2: Add proper SEO meta tags here -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="logo">OSS Guide</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contrubute">Contrubute</a></li>
-        </ul>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="#" class="logo">GSOC<span>PATHFINDER</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- PRACTICE ISSUE #1.1: Typo below "Contrubute" -->
+                <li><a href="#contrubute">Contrubute</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header id="home" class="hero">
-        <div class="container">
+        <div class="container hero-content">
+            <!-- PRACTICE ISSUE #1.1: Typo below "Welcom" -->
             <h1>Welcom to Open Source</h1>
-            <p class="subtitle">Your first step into the world of collaborative software development.</p>
+            <p class="subtitle">Master the art of collaborative software development and prepare for your GSoC journey
+                with e-Dept.</p>
             <div class="cta-group">
-                <button class="btn btn-primary">Get Started</button>
-                <button id="useless-btn" class="btn btn-secondary">Click me for nothing</button>
+                <a href="#about" class="btn btn-primary">Get Started</a>
+                <button id="useless-btn" class="btn btn-secondary">⚡ Practice Action</button>
             </div>
         </div>
     </header>
 
-    <section id="about" class="about">
+    <section id="about">
         <div class="container">
-            <h2>About this Guide</h2>
+            <h2>Why Open Source?</h2>
             <div class="grid">
                 <div class="card">
-                    <h3>What is OSS?</h3>
+                    <h3>The Power of Community</h3>
                     <p>Open source software is code that is designed to be publicly accessible—anyone can see, modify,
                         and distribute the code as they see fit.</p>
                 </div>
                 <div class="card">
-                    <h3>Why Join?</h3>
+                    <h3>Career Growth</h3>
+                    <!-- PRACTICE ISSUE #1.1: Typo below "globle" -->
                     <p>Improve your skills, build a network, and contribute to tools used by millions of people across
                         the globle.</p>
                 </div>
@@ -48,22 +55,25 @@
         </div>
     </section>
 
-    <section id="contrubute" class="contribute">
+    <section id="contrubute" style="background: rgba(56, 189, 248, 0.02);">
         <div class="container">
-            <h2>How to Contrubute</h2>
-            <p>Finding your first issue is the hardest part. Look at the issue list on GitHub and find labels like 'good
-                first issue'.</p>
-            <a href="https://gitub.com" class="link-btn">Visit GitHub</a>
+            <h2>Your Contribution Roadmap</h2>
+            <ul class="activity-list">
+                <li>Discover issues in this codebase using <strong>ISSUES.md</strong>.</li>
+                <li>Follow the professional workflow in <strong>CONTRIBUTING.md</strong>.</li>
+                <li>Submit your first Pull Request and get reviewed!</li>
+                <li>Master Git rebasing and squashing in the process.</li>
+            </ul>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Open Source Handbook by **edept**. All rights reserved.</p>
+        <div class="container footer-content">
+            <p>&copy; 2026 GSoC Pathfinder by <strong>edept</strong>. Build for the future.</p>
             <div class="footer-links">
-                <a href="#">Privacy</a>
-                <a href="/missing-page.html">Support</a>
-                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="/missing-page.html">Help Center</a>
+                <a href="#">Contact Us</a>
             </div>
         </div>
     </footer>

@@ -1,0 +1,31 @@
+name: PR Verification
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check for common typos
+        run: |
+          if grep -qi "Welcom" index.html; then
+            echo "::warning file=index.html,line=1::Found a practice typo 'Welcom' - Consider fixing this for your PR!"
+          fi
+          
+      - name: Verify Documentation Presence
+        run: |
+          if [ ! -f "LICENSE.md" ]; then
+            echo "LICENSE.md is missing!"
+            exit 1
+          fi
+          if [ ! -f "CONTRIBUTING.md" ]; then
+            echo "CONTRIBUTING.md is missing!"
+            exit 1
+          fi
+          
+      - name: Success Message
+        run: echo "Basic verification passed. Ready for review!"
