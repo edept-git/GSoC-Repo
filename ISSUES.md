@@ -15,6 +15,10 @@ These tasks focused on documentation and simple UI fixes.
 - **Goal:** Add proper SEO meta tags to the `<head>` of `index.html`.
 - **Focus:** Web standards.
 
+### Issue #1.3: Alt-Text Audit
+- **Goal:** Ensure all images (if any are added) or icons have descriptive `alt` tags or `aria-labels`.
+- **Focus:** Accessibility (a huge plus in GSoC).
+
 ---
 
 ## 🟡 Level 2: Intermediate (Styling & UX)
@@ -28,6 +32,10 @@ These tasks require knowledge of CSS and layout.
 - **Goal:** The button colors in the footer don't match the primary theme. Update them in `style.css`.
 - **Focus:** Design consistency.
 
+### Issue #2.3: The "Scroll to Top" Mission
+- **Goal:** Users find it hard to navigate back up. Add a "Scroll to Top" button that only appears after scrolling 500px.
+- **Focus:** UI Interactivity.
+
 ---
 
 ## 🔴 Level 3: Advanced (Logic & JavaScript)
@@ -40,6 +48,14 @@ These tasks require debugging functional code.
 ### Issue #3.2: LocalStorage Persistence
 - **Goal:** Currently, task status is lost on page refresh. Implement `localStorage` to save user progress.
 - **Focus:** State management.
+
+### Issue #3.3: Dynamic Footer Year
+- **Goal:** The year in the footer is hardcoded to 2026. Use JavaScript to make it update automatically to the current year.
+- **Focus:** Utility logic.
+
+### Issue #3.4: The Contact Form Challenge
+- **Goal:** Add a simple contact form in a new section and implement basic validation (required fields, email format) in `app.js`.
+- **Focus:** Form handling.
 
 ---
 

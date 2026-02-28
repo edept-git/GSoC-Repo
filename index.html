@@ -67,9 +67,37 @@
         </div>
     </section>
 
+    <!-- PRACTICE ISSUE #3.4: The Contact Form Challenge -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <form id="contact-form">
+                    <div style="margin-bottom: 1rem;">
+                        <input type="text" placeholder="Your Name"
+                            style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-color); color: #fff;">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <input type="email" placeholder="Your Email"
+                            style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-color); color: #fff;">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRACTICE ISSUE #2.3: Scroll to Top Button -->
+    <button id="scroll-top" class="btn-primary"
+        style="position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; border-radius: 50%; display: none; align-items: center; justify-content: center; z-index: 1000; border: none; cursor: pointer; font-size: 1.5rem;">
+        ↑
+    </button>
+
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; 2026 GSoC Pathfinder by <strong>edept</strong>. Build for the future.</p>
+            <!-- PRACTICE ISSUE #3.3: Dynamic Footer Year -->
+            <p>&copy; <span id="current-year">2026</span> GSoC Pathfinder by <strong>edept</strong>. Build for the
+                future.</p>
             <div class="footer-links">
                 <a href="#">Privacy Policy</a>
                 <a href="/missing-page.html">Help Center</a>

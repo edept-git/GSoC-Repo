@@ -74,3 +74,51 @@ document.addEventListener('transitionend', (e) => {
         e.target.style.transform = 'translateY(0)';
     }
 });
+
+/**
+ * PRACTICE ISSUE #3.4: Contact Form Validation
+ * TODO: Implement validation for the contact form.
+ */
+function initContactForm() {
+    const form = document.getElementById('contact-form');
+    if (!form) return;
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        console.log("Form submission attempted. Validation needed!");
+        // Add validation logic here
+    });
+}
+
+/**
+ * PRACTICE ISSUE #2.3: Scroll to Top Button
+ * TODO: Implement the show/hide logic and smooth scroll.
+ */
+function initScrollTop() {
+    const scrollTopBtn = document.getElementById('scroll-top');
+    if (!scrollTopBtn) return;
+
+    window.addEventListener('scroll', () => {
+        // Add logic to show button after 500px scroll
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+        // Add smooth scroll to top logic
+    });
+}
+
+/**
+ * PRACTICE ISSUE #3.3: Dynamic Footer Year
+ * TODO: Use JavaScript to set the year in the footer dynamically.
+ */
+function updateFooterYear() {
+    const yearSpan = document.getElementById('current-year');
+    if (yearSpan) {
+        // Use new Date().getFullYear()
+    }
+}
+
+// Initialize new features (uncomment these as you solve the issues!)
+// initContactForm();
+// initScrollTop();
+// updateFooterYear();
