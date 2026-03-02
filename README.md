@@ -1,10 +1,10 @@
-# 🚀 GSoC Practice Repository: e-Dept Pathfinder
+# 🚀 GSoC Practice Repository: edept Pathfinder
 
 ![GSoC](https://img.shields.io/badge/GSoC-2026-blue?style=for-the-badge&logo=google)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)
 
-Welcome to the official **GSoC Practice Repository** by **e-Dept**. This repository is designed to help students and GSoC aspirants master the art of Open Source contribution through practical, hands-on tasks.
+Welcome to the official **GSoC Practice Repository** by **edept**. This repository is designed to help students and GSoC aspirants master the art of Open Source contribution through practical, hands-on tasks.
 
 ---
 
